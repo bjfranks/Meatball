@@ -10,4 +10,8 @@ The jupyter notebook file herein was created with python 3.10.9, but will likely
 * simfile
 * matplotlib
 
-Just run pip install jupyter notebook onnxruntime matplotlib simfile
+Just run `pip install jupyter notebook onnxruntime matplotlib simfile`
+
+## Example Use
+
+Start up the jupyter notebook with `python -m jupyter notebook` on the partition where you cloned this repository and follow the instructions in the jupyter notebook.
