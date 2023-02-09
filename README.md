@@ -12,6 +12,12 @@ The jupyter notebook file herein was created with python 3.10.9, but will likely
 
 Just run `pip install jupyter notebook onnxruntime matplotlib simfile`
 
-## Example Use
+## Setup
 
-Start up the jupyter notebook with `python -m jupyter notebook` on the partition where you cloned this repository and follow the instructions in the jupyter notebook.
+1. Install python from [python.org](https://www.python.org/downloads/).
+2. Clone or download and unzip this repository.
+3. (optional) I would suggest setting up a virtual environment inside the retrieved folder by running `python -m venv venv` and then activating this environment on windows with `venv\Scripts\activate`. Remember that if you want to use this code at some future point you might need to reactivate the virtual environment.
+4. Install the needed packages with `pip install jupyter notebook onnxruntime matplotlib simfile`
+5. Start up jupyter notebook with `python -m jupyter notebook`. Which will start a file browser tab on your standard browser.
+6. Navigate to and open `Using Machine Learning to Understand and Improve StepMania Play.ipynb`.
+7. Now follow the instructions in the jupyter notebook. You can run a cell with either shift+enter or the "play" button at the top.
